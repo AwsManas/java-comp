@@ -1,0 +1,27 @@
+import java.io.*;
+class trans
+{
+  public static void print(int a[][])
+        {
+                for(int[] row : a)
+                {
+                        for(int ele : row)
+                        System.out.print(ele+" ");
+                        System.out.println();
+                }
+        }
+  public static void main(String args[])
+        {
+         // int [][] mata = new int [3][3];
+         int [][] mata = {{1,2,3},{4,5,6},{7,8,9}};
+          int [][] trans = new int [3][3];
+          int i,j;
+          for(i=0; i<3; i++)
+                {
+                for(j=0; j<3; j++)
+                trans[i][j] = mata[j][i];
+                }
+        print(mata);
+        print(trans);
+        }
+}

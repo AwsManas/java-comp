@@ -1,0 +1,11 @@
+import manas.food;
+class packe
+{
+public static void main(String args[])
+        {
+        food ob1 = new food();
+        ob1.today();
+        food ob2 = new food("Puliogrey");
+        ob2.today();
+        }
+}

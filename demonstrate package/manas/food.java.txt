@@ -1,0 +1,17 @@
+package manas;
+public class food
+{
+  String dish;
+public  food(String a)
+  {
+   dish = a;
+  }
+public food()
+ {
+  dish = "Noodles";
+ }
+  public void today()
+        {
+        System.out.println(dish);
+        }
+}
